@@ -191,7 +191,7 @@ theory_marks=int(input("enter theory marks:"))
 partical_marks=int(input("enter pratical marks:"))
 total_mark= theory_marks+partical_marks
 if (theory_marks>=35,
-pratical_marks>=50 and total_marks>60):
+partical_marks>=50 and total_mark>60):
     print("student passed")
 else:
     print("student failed")
