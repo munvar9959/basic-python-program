@@ -88,10 +88,11 @@ num=a*b
 print(num)
 
 #13 large of three num
-num1=("enter the 1 num")
-num2=("enter the 2 num")
-num3=("enter the 3 num")
+num1=int(input("enter the 1 num:"))
+num2=int(input("enter the 2 num:"))
+num3=int(input("enter the 3 num:"))
 largest=max(num1,num2,num3)
+print("largest num:",largest)
 
 #14 arthimatic operator
 a=10
@@ -194,6 +195,58 @@ pratical_marks>=50 and total_marks>60):
     print("student passed")
 else:
     print("student failed")
+
+#23 Write a python  programee get a input from user swap 2 numbers withour 3rd variable
+a=10
+b=20
+a=a+b
+b=a-b
+print("a",a)
+print("b",b)
+
+#24 Write a python  programee get a input from user swap 2 numbers withour 3rd variable
+a=10
+b=20
+temp=a
+a=b
+b=temp
+print("after swapping:",a)
+print("after swapping:",b)
+
+#25write a python to square of a number
+a=int(input("Enter a number:"))
+Square=a*a
+print("Square of a number:",Square)
+
+#26find the avg of 3 number you have to get input from the user
+a=float(input("Enter First Number:"))
+b=float(input("Enter Second Number:"))
+c=float(input("Enter Third Number:"))
+avg=(a+b+c)/3
+print("Average is:",avg)
+
+#27write a python program to take a num as any user and multiplied by 10
+a=int(input("Enter a number:"))
+b=a*10
+print("After multipying with 10:",b)
+
+#28 write a python program to floating points
+a=float(input("Enter First Number:"))
+b=float(input("Enter Second Number:"))
+Product=a*b
+print("Product=",Product)
+
+#29 sum of first n natural number
+n=(int(input("Enter input=")))
+sum=n*(n+1)
+print("Sum=",sum)
+
+#30write a python program to check the number is divisible by 5 and 11
+a=int(input("enter the number"))
+if (a%5==0 and a%11==0):
+    print("the number is divisible by 5 and 11")
+else:
+    print("the number is not dividible")
 
 
     
