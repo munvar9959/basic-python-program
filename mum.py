@@ -93,7 +93,21 @@ num2=("enter the 2 num")
 num3=("enter the 3 num")
 largest=max(num1,num2,num3)
 
-#13
+#13 arthimatic operator
+a=10
+b=20
+c=30
+print("additon of two numbers:",a+b)
+print("multipication of two numberas:",a*b)
+print("subtraction of two numbers:",a-b)
+print("division of two numbers:",a/b)
+
+#14 logical operator
+a=10
+b=20
+print(a>0 and b>15)
+print(a>15 and b<5)
+print(not(a==10))
 
 
 
